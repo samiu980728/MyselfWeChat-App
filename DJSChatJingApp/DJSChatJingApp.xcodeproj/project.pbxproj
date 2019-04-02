@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676F8F05225340410030CC78 /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 676F8F04225340400030CC78 /* dd.png */; };
+		676F8F08225340590030CC78 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 676F8F06225340580030CC78 /* m.png */; };
+		676F8F09225340590030CC78 /* ll.png in Resources */ = {isa = PBXBuildFile; fileRef = 676F8F07225340580030CC78 /* ll.png */; };
+		676FBCCA2251E1C900706A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCC92251E1C900706A11 /* AppDelegate.m */; };
+		676FBCCD2251E1C900706A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCCC2251E1C900706A11 /* ViewController.m */; };
+		676FBCD02251E1C900706A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676FBCCE2251E1C900706A11 /* Main.storyboard */; };
+		676FBCD22251E1C900706A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676FBCD12251E1C900706A11 /* Assets.xcassets */; };
+		676FBCD52251E1C900706A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676FBCD32251E1C900706A11 /* LaunchScreen.storyboard */; };
+		676FBCD82251E1C900706A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCD72251E1C900706A11 /* main.m */; };
+		676FBCE22251E1CA00706A11 /* DJSChatJingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCE12251E1CA00706A11 /* DJSChatJingAppTests.m */; };
+		676FBCED2251E1CA00706A11 /* DJSChatJingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCEC2251E1CA00706A11 /* DJSChatJingAppUITests.m */; };
+		676FBCFC2251E24D00706A11 /* UILabel+Jing.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCFB2251E24D00706A11 /* UILabel+Jing.m */; };
+		676FBCFF2251E3EF00706A11 /* UIImage+Jing.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBCFE2251E3EF00706A11 /* UIImage+Jing.m */; };
+		676FBD022251E67F00706A11 /* DJSEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBD012251E67F00706A11 /* DJSEmojiView.m */; };
+		676FBD042251E83600706A11 /* emoji List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 676FBD032251E83600706A11 /* emoji List.plist */; };
+		676FBD072251EABD00706A11 /* DJSEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBD062251EABD00706A11 /* DJSEmojiCollectionViewCell.m */; };
+		676FBD0A2251FF9700706A11 /* DJSMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBD092251FF9700706A11 /* DJSMessageModel.m */; };
+		676FBD102252492400706A11 /* DJSMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FBD0F2252492400706A11 /* DJSMessageTableViewCell.m */; };
+		679E68E02253414F00D05F5D /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E68DF2253414F00D05F5D /* other.png */; };
+		679E68E22253415C00D05F5D /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E68E12253415B00D05F5D /* w.png */; };
+		679E68E522537CC500D05F5D /* DJSBigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 679E68E422537CC500D05F5D /* DJSBigView.m */; };
+		679E68EF225386EC00D05F5D /* emoji.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68E6225386E800D05F5D /* emoji.imageset */; };
+		679E68F0225386EC00D05F5D /* wechatvoice3.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68E7225386E800D05F5D /* wechatvoice3.imageset */; };
+		679E68F1225386EC00D05F5D /* image.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68E8225386E800D05F5D /* image.imageset */; };
+		679E68F2225386EC00D05F5D /* keyboard.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68E9225386E900D05F5D /* keyboard.imageset */; };
+		679E68F3225386EC00D05F5D /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 679E68EA225386E900D05F5D /* Contents.json */; };
+		679E68F4225386EC00D05F5D /* wechatvoice3_0.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68EB225386EA00D05F5D /* wechatvoice3_0.imageset */; };
+		679E68F5225386EC00D05F5D /* wechatvoice3_1.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68EC225386EA00D05F5D /* wechatvoice3_1.imageset */; };
+		679E68F6225386EC00D05F5D /* record.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68ED225386EB00D05F5D /* record.imageset */; };
+		679E68F7225386EC00D05F5D /* camera.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 679E68EE225386EB00D05F5D /* camera.imageset */; };
+		679E68FA2253878500D05F5D /* DJSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 679E68F92253878500D05F5D /* DJSRecord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		676FBCDE2251E1CA00706A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676FBCBD2251E1C900706A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676FBCC42251E1C900706A11;
+			remoteInfo = DJSChatJingApp;
+		};
+		676FBCE92251E1CA00706A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676FBCBD2251E1C900706A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676FBCC42251E1C900706A11;
+			remoteInfo = DJSChatJingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		676F8F04225340400030CC78 /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dd.png; path = "../../ChatHan-master/ChatHan/dd.png"; sourceTree = "<group>"; };
+		676F8F06225340580030CC78 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m.png; path = "../../ChatHan-master/ChatHan/m.png"; sourceTree = "<group>"; };
+		676F8F07225340580030CC78 /* ll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ll.png; path = "../../ChatHan-master/ChatHan/ll.png"; sourceTree = "<group>"; };
+		676F8F0A225340650030CC78 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = me.png; path = "../../ChatHan-master/ChatHan/me.png"; sourceTree = "<group>"; };
+		676F8F0B225340650030CC78 /* mm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mm.png; path = "../../ChatHan-master/ChatHan/mm.png"; sourceTree = "<group>"; };
+		676F8F0C225340660030CC78 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss.png; path = "../../ChatHan-master/ChatHan/ss.png"; sourceTree = "<group>"; };
+		676FBCC52251E1C900706A11 /* DJSChatJingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJSChatJingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		676FBCC82251E1C900706A11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		676FBCC92251E1C900706A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676FBCCB2251E1C900706A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		676FBCCC2251E1C900706A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		676FBCCF2251E1C900706A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676FBCD12251E1C900706A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676FBCD42251E1C900706A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		676FBCD62251E1C900706A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676FBCD72251E1C900706A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676FBCDD2251E1CA00706A11 /* DJSChatJingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJSChatJingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676FBCE12251E1CA00706A11 /* DJSChatJingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSChatJingAppTests.m; sourceTree = "<group>"; };
+		676FBCE32251E1CA00706A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676FBCE82251E1CA00706A11 /* DJSChatJingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJSChatJingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676FBCEC2251E1CA00706A11 /* DJSChatJingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSChatJingAppUITests.m; sourceTree = "<group>"; };
+		676FBCEE2251E1CA00706A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676FBCFA2251E24D00706A11 /* UILabel+Jing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Jing.h"; sourceTree = "<group>"; };
+		676FBCFB2251E24D00706A11 /* UILabel+Jing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Jing.m"; sourceTree = "<group>"; };
+		676FBCFD2251E3EF00706A11 /* UIImage+Jing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Jing.h"; sourceTree = "<group>"; };
+		676FBCFE2251E3EF00706A11 /* UIImage+Jing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Jing.m"; sourceTree = "<group>"; };
+		676FBD002251E67F00706A11 /* DJSEmojiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSEmojiView.h; sourceTree = "<group>"; };
+		676FBD012251E67F00706A11 /* DJSEmojiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSEmojiView.m; sourceTree = "<group>"; };
+		676FBD032251E83600706A11 /* emoji List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "emoji List.plist"; sourceTree = "<group>"; };
+		676FBD052251EABD00706A11 /* DJSEmojiCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSEmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		676FBD062251EABD00706A11 /* DJSEmojiCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSEmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		676FBD082251FF9700706A11 /* DJSMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSMessageModel.h; sourceTree = "<group>"; };
+		676FBD092251FF9700706A11 /* DJSMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSMessageModel.m; sourceTree = "<group>"; };
+		676FBD0D22520AC400706A11 /* ConstantPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantPart.h; sourceTree = "<group>"; };
+		676FBD0E2252492400706A11 /* DJSMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSMessageTableViewCell.h; sourceTree = "<group>"; };
+		676FBD0F2252492400706A11 /* DJSMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSMessageTableViewCell.m; sourceTree = "<group>"; };
+		679E68DF2253414F00D05F5D /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = other.png; path = "../../ChatHan-master/ChatHan/other.png"; sourceTree = "<group>"; };
+		679E68E12253415B00D05F5D /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = w.png; path = "../../ChatHan-master/ChatHan/w.png"; sourceTree = "<group>"; };
+		679E68E322537CC500D05F5D /* DJSBigView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSBigView.h; sourceTree = "<group>"; };
+		679E68E422537CC500D05F5D /* DJSBigView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSBigView.m; sourceTree = "<group>"; };
+		679E68E6225386E800D05F5D /* emoji.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = emoji.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/emoji.imageset"; sourceTree = "<group>"; };
+		679E68E7225386E800D05F5D /* wechatvoice3.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = wechatvoice3.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/wechatvoice3.imageset"; sourceTree = "<group>"; };
+		679E68E8225386E800D05F5D /* image.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = image.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/image.imageset"; sourceTree = "<group>"; };
+		679E68E9225386E900D05F5D /* keyboard.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = keyboard.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/keyboard.imageset"; sourceTree = "<group>"; };
+		679E68EA225386E900D05F5D /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = "../../ChatHan-master/ChatHan/Assets.xcassets/Contents.json"; sourceTree = "<group>"; };
+		679E68EB225386EA00D05F5D /* wechatvoice3_0.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = wechatvoice3_0.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/wechatvoice3_0.imageset"; sourceTree = "<group>"; };
+		679E68EC225386EA00D05F5D /* wechatvoice3_1.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = wechatvoice3_1.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/wechatvoice3_1.imageset"; sourceTree = "<group>"; };
+		679E68ED225386EB00D05F5D /* record.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = record.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/record.imageset"; sourceTree = "<group>"; };
+		679E68EE225386EB00D05F5D /* camera.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = camera.imageset; path = "../../ChatHan-master/ChatHan/Assets.xcassets/camera.imageset"; sourceTree = "<group>"; };
+		679E68F82253878500D05F5D /* DJSRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSRecord.h; sourceTree = "<group>"; };
+		679E68F92253878500D05F5D /* DJSRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSRecord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676FBCC22251E1C900706A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676FBCDA2251E1CA00706A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676FBCE52251E1CA00706A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676FBCBC2251E1C900706A11 = {
+			isa = PBXGroup;
+			children = (
+				676FBCC72251E1C900706A11 /* DJSChatJingApp */,
+				676FBCE02251E1CA00706A11 /* DJSChatJingAppTests */,
+				676FBCEB2251E1CA00706A11 /* DJSChatJingAppUITests */,
+				676FBCC62251E1C900706A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		676FBCC62251E1C900706A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676FBCC52251E1C900706A11 /* DJSChatJingApp.app */,
+				676FBCDD2251E1CA00706A11 /* DJSChatJingAppTests.xctest */,
+				676FBCE82251E1CA00706A11 /* DJSChatJingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676FBCC72251E1C900706A11 /* DJSChatJingApp */ = {
+			isa = PBXGroup;
+			children = (
+				679E68EE225386EB00D05F5D /* camera.imageset */,
+				679E68EA225386E900D05F5D /* Contents.json */,
+				679E68E6225386E800D05F5D /* emoji.imageset */,
+				679E68E8225386E800D05F5D /* image.imageset */,
+				679E68E9225386E900D05F5D /* keyboard.imageset */,
+				679E68ED225386EB00D05F5D /* record.imageset */,
+				679E68EB225386EA00D05F5D /* wechatvoice3_0.imageset */,
+				679E68EC225386EA00D05F5D /* wechatvoice3_1.imageset */,
+				679E68E7225386E800D05F5D /* wechatvoice3.imageset */,
+				679E68E12253415B00D05F5D /* w.png */,
+				679E68DF2253414F00D05F5D /* other.png */,
+				676F8F0A225340650030CC78 /* me.png */,
+				676F8F0B225340650030CC78 /* mm.png */,
+				676F8F0C225340660030CC78 /* ss.png */,
+				676F8F07225340580030CC78 /* ll.png */,
+				676F8F06225340580030CC78 /* m.png */,
+				676F8F04225340400030CC78 /* dd.png */,
+				676FBCC82251E1C900706A11 /* AppDelegate.h */,
+				676FBCC92251E1C900706A11 /* AppDelegate.m */,
+				676FBCCB2251E1C900706A11 /* ViewController.h */,
+				676FBCCC2251E1C900706A11 /* ViewController.m */,
+				676FBCCE2251E1C900706A11 /* Main.storyboard */,
+				676FBCD12251E1C900706A11 /* Assets.xcassets */,
+				676FBCD32251E1C900706A11 /* LaunchScreen.storyboard */,
+				676FBCD62251E1C900706A11 /* Info.plist */,
+				676FBCD72251E1C900706A11 /* main.m */,
+				676FBCFA2251E24D00706A11 /* UILabel+Jing.h */,
+				676FBCFB2251E24D00706A11 /* UILabel+Jing.m */,
+				676FBCFD2251E3EF00706A11 /* UIImage+Jing.h */,
+				676FBCFE2251E3EF00706A11 /* UIImage+Jing.m */,
+				676FBD002251E67F00706A11 /* DJSEmojiView.h */,
+				676FBD012251E67F00706A11 /* DJSEmojiView.m */,
+				676FBD032251E83600706A11 /* emoji List.plist */,
+				676FBD052251EABD00706A11 /* DJSEmojiCollectionViewCell.h */,
+				676FBD062251EABD00706A11 /* DJSEmojiCollectionViewCell.m */,
+				676FBD082251FF9700706A11 /* DJSMessageModel.h */,
+				676FBD092251FF9700706A11 /* DJSMessageModel.m */,
+				676FBD0D22520AC400706A11 /* ConstantPart.h */,
+				676FBD0E2252492400706A11 /* DJSMessageTableViewCell.h */,
+				676FBD0F2252492400706A11 /* DJSMessageTableViewCell.m */,
+				679E68E322537CC500D05F5D /* DJSBigView.h */,
+				679E68E422537CC500D05F5D /* DJSBigView.m */,
+				679E68F82253878500D05F5D /* DJSRecord.h */,
+				679E68F92253878500D05F5D /* DJSRecord.m */,
+			);
+			path = DJSChatJingApp;
+			sourceTree = "<group>";
+		};
+		676FBCE02251E1CA00706A11 /* DJSChatJingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				676FBCE12251E1CA00706A11 /* DJSChatJingAppTests.m */,
+				676FBCE32251E1CA00706A11 /* Info.plist */,
+			);
+			path = DJSChatJingAppTests;
+			sourceTree = "<group>";
+		};
+		676FBCEB2251E1CA00706A11 /* DJSChatJingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				676FBCEC2251E1CA00706A11 /* DJSChatJingAppUITests.m */,
+				676FBCEE2251E1CA00706A11 /* Info.plist */,
+			);
+			path = DJSChatJingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676FBCC42251E1C900706A11 /* DJSChatJingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676FBCF12251E1CA00706A11 /* Build configuration list for PBXNativeTarget "DJSChatJingApp" */;
+			buildPhases = (
+				676FBCC12251E1C900706A11 /* Sources */,
+				676FBCC22251E1C900706A11 /* Frameworks */,
+				676FBCC32251E1C900706A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJSChatJingApp;
+			productName = DJSChatJingApp;
+			productReference = 676FBCC52251E1C900706A11 /* DJSChatJingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		676FBCDC2251E1CA00706A11 /* DJSChatJingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676FBCF42251E1CA00706A11 /* Build configuration list for PBXNativeTarget "DJSChatJingAppTests" */;
+			buildPhases = (
+				676FBCD92251E1CA00706A11 /* Sources */,
+				676FBCDA2251E1CA00706A11 /* Frameworks */,
+				676FBCDB2251E1CA00706A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676FBCDF2251E1CA00706A11 /* PBXTargetDependency */,
+			);
+			name = DJSChatJingAppTests;
+			productName = DJSChatJingAppTests;
+			productReference = 676FBCDD2251E1CA00706A11 /* DJSChatJingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		676FBCE72251E1CA00706A11 /* DJSChatJingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676FBCF72251E1CA00706A11 /* Build configuration list for PBXNativeTarget "DJSChatJingAppUITests" */;
+			buildPhases = (
+				676FBCE42251E1CA00706A11 /* Sources */,
+				676FBCE52251E1CA00706A11 /* Frameworks */,
+				676FBCE62251E1CA00706A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676FBCEA2251E1CA00706A11 /* PBXTargetDependency */,
+			);
+			name = DJSChatJingAppUITests;
+			productName = DJSChatJingAppUITests;
+			productReference = 676FBCE82251E1CA00706A11 /* DJSChatJingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676FBCBD2251E1C900706A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "萨缪";
+				TargetAttributes = {
+					676FBCC42251E1C900706A11 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					676FBCDC2251E1CA00706A11 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 676FBCC42251E1C900706A11;
+					};
+					676FBCE72251E1CA00706A11 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 676FBCC42251E1C900706A11;
+					};
+				};
+			};
+			buildConfigurationList = 676FBCC02251E1C900706A11 /* Build configuration list for PBXProject "DJSChatJingApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676FBCBC2251E1C900706A11;
+			productRefGroup = 676FBCC62251E1C900706A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676FBCC42251E1C900706A11 /* DJSChatJingApp */,
+				676FBCDC2251E1CA00706A11 /* DJSChatJingAppTests */,
+				676FBCE72251E1CA00706A11 /* DJSChatJingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676FBCC32251E1C900706A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676F8F09225340590030CC78 /* ll.png in Resources */,
+				679E68EF225386EC00D05F5D /* emoji.imageset in Resources */,
+				676F8F05225340410030CC78 /* dd.png in Resources */,
+				679E68F7225386EC00D05F5D /* camera.imageset in Resources */,
+				676FBCD52251E1C900706A11 /* LaunchScreen.storyboard in Resources */,
+				676FBCD22251E1C900706A11 /* Assets.xcassets in Resources */,
+				676F8F08225340590030CC78 /* m.png in Resources */,
+				676FBD042251E83600706A11 /* emoji List.plist in Resources */,
+				679E68E22253415C00D05F5D /* w.png in Resources */,
+				679E68F0225386EC00D05F5D /* wechatvoice3.imageset in Resources */,
+				679E68F5225386EC00D05F5D /* wechatvoice3_1.imageset in Resources */,
+				679E68E02253414F00D05F5D /* other.png in Resources */,
+				679E68F2225386EC00D05F5D /* keyboard.imageset in Resources */,
+				679E68F1225386EC00D05F5D /* image.imageset in Resources */,
+				679E68F6225386EC00D05F5D /* record.imageset in Resources */,
+				679E68F4225386EC00D05F5D /* wechatvoice3_0.imageset in Resources */,
+				676FBCD02251E1C900706A11 /* Main.storyboard in Resources */,
+				679E68F3225386EC00D05F5D /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676FBCDB2251E1CA00706A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676FBCE62251E1CA00706A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676FBCC12251E1C900706A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676FBCCD2251E1C900706A11 /* ViewController.m in Sources */,
+				676FBCD82251E1C900706A11 /* main.m in Sources */,
+				676FBCFF2251E3EF00706A11 /* UIImage+Jing.m in Sources */,
+				676FBD0A2251FF9700706A11 /* DJSMessageModel.m in Sources */,
+				676FBD102252492400706A11 /* DJSMessageTableViewCell.m in Sources */,
+				676FBD022251E67F00706A11 /* DJSEmojiView.m in Sources */,
+				676FBD072251EABD00706A11 /* DJSEmojiCollectionViewCell.m in Sources */,
+				679E68FA2253878500D05F5D /* DJSRecord.m in Sources */,
+				676FBCFC2251E24D00706A11 /* UILabel+Jing.m in Sources */,
+				676FBCCA2251E1C900706A11 /* AppDelegate.m in Sources */,
+				679E68E522537CC500D05F5D /* DJSBigView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676FBCD92251E1CA00706A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676FBCE22251E1CA00706A11 /* DJSChatJingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676FBCE42251E1CA00706A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676FBCED2251E1CA00706A11 /* DJSChatJingAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		676FBCDF2251E1CA00706A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676FBCC42251E1C900706A11 /* DJSChatJingApp */;
+			targetProxy = 676FBCDE2251E1CA00706A11 /* PBXContainerItemProxy */;
+		};
+		676FBCEA2251E1CA00706A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676FBCC42251E1C900706A11 /* DJSChatJingApp */;
+			targetProxy = 676FBCE92251E1CA00706A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		676FBCCE2251E1C900706A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676FBCCF2251E1C900706A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		676FBCD32251E1C900706A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676FBCD42251E1C900706A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676FBCEF2251E1CA00706A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		676FBCF02251E1CA00706A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676FBCF22251E1CA00706A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJSChatJingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.DJSChatJingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		676FBCF32251E1CA00706A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJSChatJingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.DJSChatJingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		676FBCF52251E1CA00706A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJSChatJingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.DJSChatJingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJSChatJingApp.app/DJSChatJingApp";
+			};
+			name = Debug;
+		};
+		676FBCF62251E1CA00706A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJSChatJingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.DJSChatJingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJSChatJingApp.app/DJSChatJingApp";
+			};
+			name = Release;
+		};
+		676FBCF82251E1CA00706A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJSChatJingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.DJSChatJingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJSChatJingApp;
+			};
+			name = Debug;
+		};
+		676FBCF92251E1CA00706A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJSChatJingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.DJSChatJingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJSChatJingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676FBCC02251E1C900706A11 /* Build configuration list for PBXProject "DJSChatJingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676FBCEF2251E1CA00706A11 /* Debug */,
+				676FBCF02251E1CA00706A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676FBCF12251E1CA00706A11 /* Build configuration list for PBXNativeTarget "DJSChatJingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676FBCF22251E1CA00706A11 /* Debug */,
+				676FBCF32251E1CA00706A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676FBCF42251E1CA00706A11 /* Build configuration list for PBXNativeTarget "DJSChatJingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676FBCF52251E1CA00706A11 /* Debug */,
+				676FBCF62251E1CA00706A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676FBCF72251E1CA00706A11 /* Build configuration list for PBXNativeTarget "DJSChatJingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676FBCF82251E1CA00706A11 /* Debug */,
+				676FBCF92251E1CA00706A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676FBCBD2251E1C900706A11 /* Project object */;
+}
